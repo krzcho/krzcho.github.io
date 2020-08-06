@@ -3,4 +3,4 @@ layout: page
 title: About
 permalink: /about/
 ---
-About
+[LinkedIn](https://www.linkedin.com/in/krzysztofchodak/)
