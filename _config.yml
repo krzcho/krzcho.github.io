@@ -1,4 +1,19 @@
-theme: minima
-title: zwinnie.pl
-description: Problem solving
-email: info@zwinnie.pl
+markdown: kramdown
+plugins:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
+defaults:
+    -
+     scope:
+         path: ""
+     values:
+         layout: default
+         lang: pl
+         base-url: "/"
+    -
+     scope:
+         path: en
+     values:
+         lang: en
+         base-url: "/en/"
